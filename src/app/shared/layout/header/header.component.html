@@ -1,0 +1,53 @@
+<nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent" color-on-scroll="500">
+  <div class="container">
+    <!--<a class="navbar-brand" routerLinkActive="active" [routerLink]="['/home']">FITEC WIKI</a>-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#example-navbar-icons"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-bar bar1"></span>
+      <span class="navbar-toggler-bar bar2"></span>
+      <span class="navbar-toggler-bar bar3"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="example-navbar-icons">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/" href="#"><i class="now-ui-icons ui-1_send" aria-hidden="true"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="now-ui-icons users_single-02" aria-hidden="true"></i>
+            <p>Profile</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <div ngbDropdown class="dropdown">
+            <a class="nav-link dropdown-toggle" ngbDropdownToggle>
+              <i class="now-ui-icons plus ui-1_simple-add" aria-hidden="true"></i>
+            </a>
+            <div ngbDropdownMenu class="dropdown-menu dropdown-menu-right">
+              <div class="dropdown-header" href="#">NEW</div>
+              <a class="dropdown-item" href="#">Article</a>
+              <a class="dropdown-item" href="#">Comment</a>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <div ngbDropdown class="dropdown">
+            <a class="nav-link dropdown-toggle" ngbDropdownToggle>
+              <i class="now-ui-icons ui-1_settings-gear-63"></i>
+              <p>Settings</p>
+            </a>
+            <div ngbDropdownMenu class="dropdown-menu dropdown-menu-right">
+              <div class="dropdown-header">SETTINGS</div>
+              <a class="dropdown-item">Profile</a>
+              <a class="dropdown-item">Articles</a>
+              <a class="dropdown-item">Comments</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item">Advanced SETTINGS</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item">Sign OUT</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
