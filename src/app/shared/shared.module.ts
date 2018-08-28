@@ -12,14 +12,14 @@ import {AppRoutingModule} from '../app-routing.module';
     AppRoutingModule
   ],
   declarations: [
-    FooterComponent,
-    HeaderComponent
+    // FooterComponent,
+    // HeaderComponent
   ],
   exports: [
     CommonModule,
     FormsModule,
-    FooterComponent,
-    HeaderComponent
+    // FooterComponent,
+    // HeaderComponent
   ]
 })
 export class SharedModule {

@@ -16,9 +16,9 @@ import {SharedModule} from './shared/shared.module';
 @NgModule({
   declarations: [
     AppComponent,
-    // HeaderComponent,
-    // HomeComponent,
-    // FooterComponent
+    HeaderComponent,
+    HomeComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserAnimationsModule,

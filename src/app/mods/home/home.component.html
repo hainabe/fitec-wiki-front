@@ -7,20 +7,86 @@
 
     <div class="container">
       <div class="content-center brand">
-        <img class="n-logo" src="assets/img/w-logo.jpg" alt="">
+        <img class="n-logo" src="assets/img/wt-logo.png" alt="">
         <h1 class="h1-seo">Wicked WIKI</h1>
-        <h3>A cornucopia of information. Yours truly. P&G.</h3>
-        <h6 class="category category-absolute">Designed by
-          <a href="https://invisionapp.com/" target="_blank">
-            <img src="assets/img/invision-white-slim.png" class="invision-logo"/>
-          </a>. Coded by
-          <a href="https://www.creative-tim.com" target="_blank">
-            <img src="assets/img/creative-tim-white-slim2.png" class="creative-tim-logo"/>
-          </a>.</h6>
+        <h3>
+          <span>A Wicked way to get up to date</span>
+        </h3>
+        <h6 class="category category-absolute">
+          Coded by
+          <a href="https://github.com/PaulaFoucal" target="_blank">
+            <img src="assets/img/paula-logo.jpg" style="max-height: 40px" class="rounded-circle"/>
+          </a>
+          &
+          <a href="https://github.com/hainabe" target="_blank">
+            <img src="assets/img/gab-logo.jpg" style="max-height: 40px" class="rounded-circle"/>
+          </a>
+        </h6>
       </div>
-
     </div>
   </div>
 
-</div>
+  <div id="home-carousel" class="container-fluid carousel slide" data-ride="carousel">
+    <ngb-carousel class="carousel-inner">
+      <ng-template class="carousel-item" ngbSlide>
+        <img [src]="imgUrl01" class="d-block" alt="Random first slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>First slide label</h3>
+          <h5>Nulla vitae elit libero, a pharetra augue mollis interdum.</h5>
+        </div>
+      </ng-template>
 
+      <ng-template class="carousel-item" ngbSlide>
+        <img [src]="imgUrl02" class="d-block" alt="Random second slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>Second slide label</h3>
+          <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+        </div>
+      </ng-template>
+
+      <ng-template class="carousel-item" ngbSlide>
+        <img [src]="imgUrl03" class="d-block" alt="Random third slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>Third slide label</h3>
+          <h5>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</h5>
+        </div>
+      </ng-template>
+    </ngb-carousel>
+  </div>
+
+  <!-- CAROUSEL -->
+  <!--<div id="ex-carousel" class="container carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="carousel-01" data-slide-to="0" class="active"></li>
+      <li data-target="carousel-02" data-slide-to="1" class=""></li>
+      <li data-target="carousel-03" data-slide-to="2" class=""></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div id="carousel-01" class="carousel-item">
+        <img class="d-block" src="assets/img/bg1.jpg" alt="First slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Nature, United States</h5>
+        </div>
+      </div>
+      <div id="carousel-02" class="carousel-item">
+        <img class="d-block" src="assets/img/bg3.jpg" alt="Second slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Somewhere Beyond, United States</h5>
+        </div>
+      </div>
+      <div id="carousel-03" class="carousel-item active">
+        <img class="d-block" src="assets/img/bg4.jpg" alt="Third slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Yellowstone National Park, United States</h5>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <i class="now-ui-icons arrows-1_minimal-left"></i>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <i class="now-ui-icons arrows-1_minimal-right"></i>
+    </a>
+  </div>-->
+
+</div>

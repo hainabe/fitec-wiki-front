@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -7,7 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  // images = [1, 2, 3].map(() => `https://picsum.photos/900/500?random&t=${Math.random()}`);
+  imgUrl01 = "assets/img/bg1.jpg";
+  imgUrl02 = "assets/img/bg3.jpg";
+  imgUrl03 = "assets/img/bg5.jpg";
+
+  constructor() {
+  }
 
   ngOnInit() {
   }
